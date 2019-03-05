@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="client_id">oPwjywQv3McU7J2WIABxR</string>
+    <string name="client_secret">gHqi9ucaWh3oqkAmMxUgjmUpJLDUpeF4KhTFvKYS</string>
+</resources>
