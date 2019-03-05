@@ -40,7 +40,7 @@ public class WeatherViewHolder extends RecyclerView.ViewHolder {
         setIcon(bronxWeatherDay);
         dateTextView.setText(bronxWeatherDay.getDateTimeISO().substring(0,10));
         minimumWeatherTextView.setText("Low: " + String.valueOf(bronxWeatherDay.getMinTempF()));
-        maximumWeatherTextView.setText("High: "  + String.valueOf(bronxWeatherDay.getMaxTempF()));
+        maximumWeatherTextView.setText(new StringBuilder().append("High: ").append(String.valueOf(bronxWeatherDay.getMaxTempF())).toString());
         weatherDescriptionTextView.setText(bronxWeatherDay.getWeatherPrimary());
     }
 

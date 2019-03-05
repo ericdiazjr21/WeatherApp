@@ -18,8 +18,8 @@ public class WeatherRepository {
     private static WeatherRepository singleInstance;
     private MutableLiveData<WeatherResponse> weatherResponseMutableLiveData;
 
-    public static final String CLIENT_ID = "oPwjywQv3McU7J2WIABxR";
-    public static final String SECRET_CLIENT = "gHqi9ucaWh3oqkAmMxUgjmUpJLDUpeF4KhTFvKYS";
+    private static final String CLIENT_ID = "oPwjywQv3McU7J2WIABxR";
+    private static final String SECRET_CLIENT = "gHqi9ucaWh3oqkAmMxUgjmUpJLDUpeF4KhTFvKYS";
     private WeatherRepository() {
         weatherResponseMutableLiveData = new MutableLiveData<>();
     }
